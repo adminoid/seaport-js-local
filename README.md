@@ -31,7 +31,7 @@ We recommend using [nvm](https://github.com/nvm-sh/nvm) to manage Node.js versio
 Then, in your project, run:
 
 ```console
-npm install --save @opensea/seaport-js
+npm install --save @opensea/seaport-js-local
 ```
 
 ## Getting Started
@@ -43,7 +43,7 @@ Instantiate your instance of seaport using your ethers provider:
 #### Through a browser provider (i.e. Metamask)
 
 ```js
-import { Seaport } from "@opensea/seaport-js";
+import { Seaport } from "seaport-js-local";
 import { ethers } from "ethers";
 
 const provider = new ethers.providers.Web3Provider(window.ethereum);
@@ -54,7 +54,7 @@ const seaport = new Seaport(provider);
 #### Through a RPC Provider (i.e. Alchemy)
 
 ```js
-import { Seaport } from "@opensea/seaport-js";
+import { Seaport } from "seaport-js-local";
 import { ethers } from "ethers";
 
 const provider = new ethers.providers.JsonRpcProvider(
@@ -67,7 +67,7 @@ const seaport = new Seaport(provider);
 #### With custom signer
 
 ```js
-import { Seaport } from "@opensea/seaport-js";
+import { Seaport } from "seaport-js-local";
 import { ethers } from "ethers";
 
 // Provider must be provided to the signer when supplying a custom signer

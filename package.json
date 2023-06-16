@@ -1,16 +1,16 @@
 {
-  "name": "@opensea/seaport-js",
-  "version": "2.0.3",
+  "name": "seaport-js-local",
+  "version": "2.0.4",
   "description": "[Seaport](https://github.com/ProjectOpenSea/seaport) is a new marketplace protocol for safely and efficiently buying and selling NFTs. This is a JavaScript library intended to make interfacing with the contract reasonable and easy.",
   "license": "MIT",
   "author": "OpenSea Developers",
-  "homepage": "https://github.com/ProjectOpenSea/seaport-js#readme",
+  "homepage": "https://github.com/adminoid/seaport-js-local#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ProjectOpenSea/seaport-js.git"
+    "url": "git+https://github.com/adminoid/seaport-js-local.git"
   },
   "bugs": {
-    "url": "https://github.com/ProjectOpenSea/seaport-js/issues"
+    "url": "https://github.com/adminoid/seaport-js-local/issues"
   },
   "main": "lib/index.js",
   "files": [
